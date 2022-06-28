@@ -61,10 +61,10 @@ function Home(){
                 })}
               </ul>
               <Aside
-               Category={userData[0].category} 
-               Name={userData[0].name} 
-               Info={userData[0].userInfo}
-               Profile={userData[0].profileImg}
+               Category={userData[1].category} 
+               Name={userData[1].name} 
+               Info={userData[1].userInfo}
+               Profile={userData[1].profileImg}
               />
             </div>
           </main>
