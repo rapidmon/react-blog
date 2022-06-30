@@ -1,5 +1,5 @@
 import './article.css'
-import profile from '../images/profile.jpg'
+import profile from '../assets/profile.jpg'
 
 function Article({Img, Date, Title, Content, Category}){
     return(

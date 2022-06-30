@@ -1,6 +1,7 @@
 import './post.css'
-import profile from '../images/profile.jpg'
+import profile from '../assets/profile.jpg'
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 function Post({Day, Category, Title, Text1, Text2, Img}){
     const [like, setLike] = useState(false);
@@ -42,16 +43,16 @@ function Post({Day, Category, Title, Text1, Text2, Img}){
                                 </p>
                             </div>
                             <div class="btn-group">
-                                <a href="#" class="btn-modify">
+                                <button class="btn-modify">
                                     <span class="a11y-hidden">modify</span>
-                                </a>
+                                </button>
                                 <button type="button" class="btn-delete">
                                     <span class="a11y-hidden">delete</span>
                                 </button>
                             </div>
-                            <a href="./" class="btn-back">
+                            <Link to="/" class="btn-back">
                                 <span class="a11y-hidden">Back</span>
-                            </a>
+                            </Link>
                         </div>
                     </section>
                 </div>

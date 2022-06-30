@@ -165,16 +165,16 @@
 			"email": "chilli@blog.com",
 			"profileImg": "/assets/profile.jpg",
 			"name": "Chilli",
-			"userInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"userInfo": "Hello! my name is Chilli! Welcome to my blog.",
 			"category": ["Life", "Style", "Tech", "Sport", "Photo", "Develop", "Music"],
 			"sns": { "GitHub": "", "Facebook": "", "Twitter": "", "Instagram": "" }
 		},
 		{
 			"id": 2,
 			"email": "binky@blog.com",
-			"profileImg": "/assets/profile.jpg",
+			"profileImg": "/assets/binky.jpg",
 			"name": "Binky",
-			"userInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"userInfo": "Hello! my name is Binky! Welcome to my blog.",
 			"category": ["Life", "Style", "Tech", "Sport", "Photo", "Develop", "Music"],
 			"sns": { "GitHub": "", "Facebook": "", "Twitter": "", "Instagram": "" }
 		}

@@ -1,11 +1,13 @@
 import Post from "../../components/post"
 import PostBanner from "../../components/postbanner"
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 
-function Two(){
+function Posts(){
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [data, setData] = useState([]);
+  let params = useParams();
     
   useEffect(()=>{
       fetch('/data.json').then(
@@ -13,14 +15,14 @@ function Two(){
       ).then(
         resData => {
           setIsLoaded(true);
-          setData(resData.posts[1]);
+          setData(resData.posts[parseInt(params.postId)-1]);
         },
         (error) => {
           setIsLoaded(true);
           setError(error);
         }
       )
-  }, [])
+  }, [params])
   if(error){
     return(
       <>
@@ -51,4 +53,4 @@ function Two(){
   }
 }
 
-export default Two
+export default Posts

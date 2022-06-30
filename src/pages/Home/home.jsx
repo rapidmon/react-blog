@@ -5,11 +5,10 @@ import './home.css'
 import Banner from '../../components/banner'
 import { useState, useEffect } from 'react'
 
-function Home(){
+function Home({user, login}){
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [data, setData] = useState([]);
-    const [userData, setUserData] = useState([]);
       
     useEffect(()=>{
         fetch('/data.json').then(
@@ -18,7 +17,6 @@ function Home(){
           resData => {
             setIsLoaded(true);
             setData(resData.posts);
-            setUserData(resData.users);
           },
           (error) => {
             setIsLoaded(true);
@@ -47,10 +45,10 @@ function Home(){
             <div class="max-width">
               <h2 class="a11y-hidden">Post</h2>
               <ul class="posts">
-                {data.slice(0).reverse().map((value, key) => {
-                  let url = `/${value.id}`
+                {data.slice(0).reverse().map((value) => {
+                  let url = `/posts/${value.id}`
                   return(
-                    <li id={key}><Link class="post" to={url}><Article
+                    <li key={value.id}><Link class="post" to={url}><Article
                       Img={value.thumbnail}
                       Date={value.created}
                       Title={value.title}
@@ -60,12 +58,12 @@ function Home(){
                   )
                 })}
               </ul>
-              <Aside
-               Category={userData[1].category} 
-               Name={userData[1].name} 
-               Info={userData[1].userInfo}
-               Profile={userData[1].profileImg}
-              />
+              {login && (<Aside
+               Category={user.category} 
+               Name={user.name} 
+               Info={user.userInfo}
+               Profile={user.profileImg}
+              />)}
             </div>
           </main>
         </>
