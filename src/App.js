@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react-blog'>
 		<Header user={user} handleUser={handleUser} login={login} handleLogin={handleLogin}/>
 		<Routes>
 			<Route path="/" element={<Home user={user} login={login}/>}/>
