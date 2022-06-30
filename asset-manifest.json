@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-blog/static/css/main.e4199281.css",
+    "main.js": "/react-blog/static/js/main.9ccc58bc.js",
+    "static/media/background.jpg": "/react-blog/static/media/background.9d8ffdf2b026e3a71002.jpg",
+    "static/media/profile.jpg": "/react-blog/static/media/profile.e2608c2bb9d5a58c15ce.jpg",
+    "static/media/Github.svg": "/react-blog/static/media/Github.a3c4dcfab0b4e93735a77fdd72183c89.svg",
+    "static/media/Logo.svg": "/react-blog/static/media/Logo.53fb08a30d5142d051a06aa1851e9f4a.svg",
+    "static/media/Twitter.svg": "/react-blog/static/media/Twitter.50af55e16202f517fc8253fbb11cfdab.svg",
+    "static/media/icon-modify.svg": "/react-blog/static/media/icon-modify.52959ee778b9ea61277b.svg",
+    "static/media/icon-register.svg": "/react-blog/static/media/icon-register.3c258ab4483bac5c8d7f068037fc1169.svg",
+    "static/media/Instagram.svg": "/react-blog/static/media/Instagram.d2afd72474f6f26eca3437496ceb1f4d.svg",
+    "static/media/Facebook.svg": "/react-blog/static/media/Facebook.0fba0eb380830a12989d2719b2e5a775.svg",
+    "static/media/icon-delete.svg": "/react-blog/static/media/icon-delete.150ac058875316d56d0f.svg",
+    "static/media/icon-modify-white.svg": "/react-blog/static/media/icon-modify-white.9a0d493c3e70e4f1f3a5025364a2fb01.svg",
+    "static/media/icon-logout.svg": "/react-blog/static/media/icon-logout.95261e56c5d691efab3245b1729f5035.svg",
+    "static/media/icon-save.svg": "/react-blog/static/media/icon-save.da57311edf13fe0ce7a5.svg",
+    "static/media/icon-like.svg": "/react-blog/static/media/icon-like.784611e5d66c0bd73c83.svg",
+    "static/media/icon-delete-white.svg": "/react-blog/static/media/icon-delete-white.ec192274478e1cd84e47.svg",
+    "static/media/icon-save-white.svg": "/react-blog/static/media/icon-save-white.543520c8167a05870b6f.svg",
+    "static/media/icon-login.svg": "/react-blog/static/media/icon-login.de52d1d708773263aeb94cc1d313fd41.svg",
+    "static/media/icon-like-white.svg": "/react-blog/static/media/icon-like-white.1553634e56bb5c8068ae.svg",
+    "index.html": "/react-blog/index.html",
+    "static/media/ArrowLeft-blue.svg": "/react-blog/static/media/ArrowLeft-blue.6f1f3370508f86e68158.svg",
+    "static/media/ArrowTop.svg": "/react-blog/static/media/ArrowTop.b49d51006c9a31ea89b3.svg",
+    "main.e4199281.css.map": "/react-blog/static/css/main.e4199281.css.map",
+    "main.9ccc58bc.js.map": "/react-blog/static/js/main.9ccc58bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4199281.css",
+    "static/js/main.9ccc58bc.js"
+  ]
+}
