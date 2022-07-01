@@ -163,7 +163,7 @@
     {
       "id": 1,
       "email": "chilli@blog.com",
-      "profileImg": "/assets/profile.jpg",
+      "profileImg": "/react-blog/assets/profile.jpg",
       "name": "Chilli",
       "userInfo": "Hello! my name is Chilli! Welcome to my blog.",
       "category": [
@@ -180,7 +180,7 @@
     {
       "id": 2,
       "email": "binky@blog.com",
-      "profileImg": "/assets/binky.jpg",
+      "profileImg": "/react-blog/assets/binky.jpg",
       "name": "Binky",
       "userInfo": "Hello! my name is Binky! Welcome to my blog.",
       "category": [

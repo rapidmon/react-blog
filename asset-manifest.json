@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-blog/static/css/main.e4199281.css",
-    "main.js": "/react-blog/static/js/main.0a485bbf.js",
+    "main.js": "/react-blog/static/js/main.6925f5f9.js",
     "static/media/background.jpg": "/react-blog/static/media/background.9d8ffdf2b026e3a71002.jpg",
     "static/media/profile.jpg": "/react-blog/static/media/profile.e2608c2bb9d5a58c15ce.jpg",
     "static/media/Github.svg": "/react-blog/static/media/Github.a3c4dcfab0b4e93735a77fdd72183c89.svg",
@@ -24,10 +24,10 @@
     "static/media/ArrowLeft-blue.svg": "/react-blog/static/media/ArrowLeft-blue.6f1f3370508f86e68158.svg",
     "static/media/ArrowTop.svg": "/react-blog/static/media/ArrowTop.b49d51006c9a31ea89b3.svg",
     "main.e4199281.css.map": "/react-blog/static/css/main.e4199281.css.map",
-    "main.0a485bbf.js.map": "/react-blog/static/js/main.0a485bbf.js.map"
+    "main.6925f5f9.js.map": "/react-blog/static/js/main.6925f5f9.js.map"
   },
   "entrypoints": [
     "static/css/main.e4199281.css",
-    "static/js/main.0a485bbf.js"
+    "static/js/main.6925f5f9.js"
   ]
 }
