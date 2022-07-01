@@ -2,7 +2,6 @@ import "./article.css";
 import profile from "../assets/profile.jpg";
 
 function Article({ Img, Date, Title, Content, Category }) {
-  console.log(Img);
   return (
     <article>
       <img src={"." + Img} alt="" />

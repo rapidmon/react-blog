@@ -6,9 +6,11 @@ function Banner() {
 
   useEffect(() => {
     const fetchData = () => {
-      fetch(
-        "https://raw.githubusercontent.com/rapidmon/react-blog/main/public/data.json"
-      )
+      fetch("/data.json", {
+        headers: {
+          Accept: "application/json",
+        },
+      })
         .then((res) => res.json())
         .then((resData) => setData(resData.blog));
     };

@@ -165,9 +165,11 @@ function Header({ user, handleUser, login, handleLogin }) {
   const [userData, setUserData] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/rapidmon/react-blog/main/public/data.json"
-    )
+    fetch("/data.json", {
+      headers: {
+        Accept: "application/json",
+      },
+    })
       .then((res) => res.json())
       .then(
         (resData) => {
