@@ -6,7 +6,7 @@ function Banner() {
 
   useEffect(() => {
     const fetchData = () => {
-      fetch("/data.json", {
+      fetch("./react-blog/data.json", {
         headers: {
           Accept: "application/json",
         },

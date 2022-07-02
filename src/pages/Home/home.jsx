@@ -11,7 +11,7 @@ function Home({ user, login }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/data.json", {
+    fetch("./react-blog/data.json", {
       headers: {
         Accept: "application/json",
       },

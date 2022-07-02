@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://rapidmon.github.io/react-blog/",
+  "homepage": "https://rapidmon.github.io/react-blog",
   "eslintConfig": {
     "extends": [
       "react-app",

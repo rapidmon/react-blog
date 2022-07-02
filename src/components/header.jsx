@@ -165,7 +165,7 @@ function Header({ user, handleUser, login, handleLogin }) {
   const [userData, setUserData] = useState([]);
 
   useEffect(() => {
-    fetch("/data.json", {
+    fetch("./react-blog/data.json", {
       headers: {
         Accept: "application/json",
       },

@@ -10,7 +10,7 @@ function Posts() {
   let params = useParams();
 
   useEffect(() => {
-    fetch("/data.json", {
+    fetch("./react-blog/data.json", {
       headers: {
         Accept: "application/json",
       },
